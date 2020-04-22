@@ -10,8 +10,8 @@ $(document).ready(function() {
                 data: {
                     labels: mesi,
                     datasets: [{
-                        label: 'My First dataset',
-                        backgroundColor: 'rgb(255, 99, 132)',
+                        label: 'Venduto 2019',
+                        backgroundColor: '#77B0C1',
                         borderColor: 'rgb(255, 99, 132)',
                         data: data
                     }]
@@ -25,7 +25,7 @@ $(document).ready(function() {
     });
 
 
-
+    //------------------------Metodo con Attributo (data)--------------------------
     // var mesi = ['Gennaio', 'Febbraio', 'Marzo', 'Aprile', 'Maggio', 'Giugno', 'Luglio', 'Agosto','Settembre', 'Ottobre', 'Novembre', 'Dicembre'];
     // //var data = [1000,1322,1123,2301,3288,988,502,2300,5332,2300,1233,2322];
     // var data = $('#line-chart').data('database');// richiamo l'attributo dall'index (data-database)
@@ -35,7 +35,7 @@ $(document).ready(function() {
     //     data: {
     //         labels: mesi,
     //         datasets: [{
-    //             label: 'My First dataset',
+    //             label: 'Venduto 2019',
     //             backgroundColor: 'rgb(255, 99, 132)',
     //             borderColor: 'rgb(255, 99, 132)',
     //             data: data

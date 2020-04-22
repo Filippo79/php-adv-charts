@@ -15,10 +15,10 @@
     </head>
     <body>
         <div class="container">
-            <?php include 'database.php'; ?>
+            <?php include 'database.php'; // metodo con  attributo vedi sotto (data-database)?>
             <canvas id="line-chart" data-database="<?php echo $database; ?>"></canvas>
         </div>
-        <!-- <script>
+        <!-- <script> // Metodo con script all'interno della pagina php
             $(document).ready(function() {
                 var mesi = ['Gennaio', 'Febbraio', 'Marzo', 'Aprile', 'Maggio', 'Giugno', 'Luglio', 'Agosto','Settembre', 'Ottobre', 'Novembre', 'Dicembre'];
                 <?php include 'database.php'; ?>
@@ -29,7 +29,7 @@
                     data: {
                         labels: mesi,
                         datasets: [{
-                            label: 'Vendite',
+                            label: 'Venduto 2019',
                             backgroundColor: 'rgb(255, 99, 132)',
                             borderColor: 'rgb(255, 99, 132)',
                             data: data

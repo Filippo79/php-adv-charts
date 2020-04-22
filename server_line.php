@@ -1,5 +1,6 @@
 <?php
     include 'database.php';
     header('Content-Type: application/json');
-    echo $database;
+    //echo $data;
+    echo $database_mesi;
  ?>
