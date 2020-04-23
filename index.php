@@ -15,9 +15,20 @@
     </head>
     <body>
         <div class="container">
-            <?php include 'database.php'; // metodo con  attributo vedi sotto (data-database)?>
-            <canvas id="line-chart" data-database="<?php echo $database; ?>"></canvas>
+            <div class="grafico">
+                <?php include 'database.php'; // metodo con  attributo vedi sotto (data-database)?>
+                <canvas id="line-chart" data-database="<?php echo $database; ?>"></canvas>
+            </div>
         </div>
+        <div class="container2">
+            <div class="grafici">
+                <canvas id="line-chart"></canvas>
+            </div>
+            <div class="grafici">
+                <canvas id="pie-chart"></canvas>
+            </div>
+        </div>
+
         <!-- <script> // Metodo con script all'interno della pagina php
             $(document).ready(function() {
                 var mesi = ['Gennaio', 'Febbraio', 'Marzo', 'Aprile', 'Maggio', 'Giugno', 'Luglio', 'Agosto','Settembre', 'Ottobre', 'Novembre', 'Dicembre'];

@@ -1,5 +1,5 @@
 <?php
     include 'database.php';
     header ('Content-Type: application/json');
-    echo $database;
+    echo $database_fatturato;
  ?>

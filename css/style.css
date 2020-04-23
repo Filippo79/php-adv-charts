@@ -14,3 +14,12 @@
     width: 50%;
     margin: 0 auto;
 }
+
+.container2  {
+    display: flex;
+    justify-content: space-between;
+}
+
+.grafici {
+    width: 50%
+}
