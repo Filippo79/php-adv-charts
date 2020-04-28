@@ -29,7 +29,7 @@
             </div>
         </div>
 
-        <!-- <script> // Metodo con script all'interno della pagina php
+        <script> // Metodo con script all'interno della pagina php
             $(document).ready(function() {
                 var mesi = ['Gennaio', 'Febbraio', 'Marzo', 'Aprile', 'Maggio', 'Giugno', 'Luglio', 'Agosto','Settembre', 'Ottobre', 'Novembre', 'Dicembre'];
                 <?php include 'database.php'; ?>
@@ -41,7 +41,7 @@
                         labels: mesi,
                         datasets: [{
                             label: 'Venduto 2019',
-                            backgroundColor: 'rgb(255, 99, 132)',
+                            backgroundColor: '#77B0C1',
                             borderColor: 'rgb(255, 99, 132)',
                             data: data
                         }]
@@ -49,9 +49,7 @@
                     options: {}
                 });
             });
-        </script> -->
-
-
+        </script>
         <script src="js/main.js" charset="utf-8"></script>
     </body>
 </html>
