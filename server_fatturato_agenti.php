@@ -1,12 +1,4 @@
 <?php
-    // include 'database.php';
-    // $dati_vendita = $graphs['fatturato'];
-    // header ('Content-Type: application/json');
-    // $dati_mensili =[];
-    // $dati_mensili['tipo'][] = $dati_vendita['type'];
-    // $dati_mensili['vendite_mensili'][] = $dati_vendita['data'];
-    // echo json_encode($dati_mensili);
-
     include 'database.php';
     $fatturato_agenti = $graphs['fatturato_by_agent'];
     header ('Content-Type: application/json');

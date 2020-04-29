@@ -24,12 +24,12 @@ $(document).ready(function() {
     //     }
     // });
     $.ajax({
-        url: 'server_fatturato.php',
+        url: 'server_fatturato_mensile.php',
         method: 'GET',
         success: function(fatturato) {
             var mesi = ['Gennaio', 'Febbraio', 'Marzo', 'Aprile', 'Maggio', 'Giugno', 'Luglio', 'Agosto','Settembre', 'Ottobre', 'Novembre', 'Dicembre'];
 
-            // console.log(fatturato['vendite_mensili']);//con php
+            console.log(fatturato['vendite_mensili']);//con php
             //var fatturato = data.fatturato;//con java script
             var ctx = $('.grafici #line-chart');
             var chart = new Chart(ctx, {
@@ -53,7 +53,7 @@ $(document).ready(function() {
 
 
     $.ajax({
-        url: 'server_fatturato.php',
+        url: 'server_fatturato_agenti.php',
         method: 'GET',
         success: function(data) {
 //--------------------Con java script ---------------------------------//
@@ -81,7 +81,7 @@ $(document).ready(function() {
 
         },
         error: function() {
-            alert('Ma ddove vui andarea !!!!!!')
+            alert('Ma dove vui andarea !!!!!!')
         }
 
     });
