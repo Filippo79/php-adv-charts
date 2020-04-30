@@ -29,7 +29,7 @@ $(document).ready(function() {
         success: function(fatturato) {
             var mesi = ['Gennaio', 'Febbraio', 'Marzo', 'Aprile', 'Maggio', 'Giugno', 'Luglio', 'Agosto','Settembre', 'Ottobre', 'Novembre', 'Dicembre'];
 
-            console.log(fatturato['vendite_mensili']);//con php
+            //console.log(fatturato['vendite_mensili']);//con php
             //var fatturato = data.fatturato;//con java script
             var ctx = $('.grafici #line-chart');
             var chart = new Chart(ctx, {
